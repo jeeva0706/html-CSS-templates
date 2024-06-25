@@ -1,0 +1,178 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.sani {
+    border: 0px;
+    width: 100%;
+    height: 85px;
+    background-color:#f4f3f3;
+}
+.sanicontent
+{
+    width: 85%;
+    height: 85px;
+    margin: 0 auto;
+    
+}
+.one {
+    /* border: 0px; */
+    width: 25%;
+    height: 85px;
+    float: left;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}   
+
+.two {
+    border: 0px;
+    width: 24%;
+    height: 85px;
+    float: left;
+    /* text-align: center; */
+    /* padding: 26px 0px 25px 10px; */
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.two img {
+    height: 28px;
+    width: 25px;
+    padding: 0px 19px 0px 12px;
+    vertical-align: middle;
+}
+
+.three {
+    border: 0px;
+    width: 25%;
+    height: 85px;
+    float: right;
+    /* text-align: center; */
+    /* padding: 34px 0px 30px 0px; */
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+.three img {
+    width: 28px;
+    height: 25px;
+    padding: 5px 27px 7px 25px;
+    vertical-align: middle;
+}
+
+.four {
+    border: 0px;
+    width: 25%;
+    height: 85px;
+    float: right;
+    /* text-align: center; */
+    /* padding: 23px 0px 30px 0px; */
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+.four img {
+    width: 28px;
+    height: 25px;
+    padding: 15px 28px 13px 0px;
+    vertical-align: middle;
+}
+.jackjeeva {
+    border: 0px;
+    width: 100%;
+    height: 630px;
+    background-image: url("./images/slider-bg.jpg");
+    background-repeat: no-repeat ,repeat;
+}
+.polygon{ 
+    line-height: 50px;
+    height:50px;
+    width: 75%;
+    margin: 0 auto;
+    background:#f8bc1a;
+    clip-path: polygon(0 0, 100% 0%, 95% 100%, 5% 100%);
+    
+}
+ul {
+    list-style-type: none;
+
+}
+a {
+    text-decoration: none;
+    padding: 50px 70px;
+    color: black;
+}
+li {
+    display: inline;
+}
+a:hover {
+    color: white;
+}
+.diamond {
+    /* border: 1px solid black; */
+    width: 40%;
+    height: 380px;
+    float: right;
+    position: absolute;
+    right: 45px;
+    bottom: 30px;
+}
+.kick {
+    /* border: 1px solid black; */
+    width: 45%;
+    height: 50px;
+    margin: 10px;
+    color: #f8bc1a;
+    font-size: 30px;
+}
+.down {
+    /* border: 1px solid black; */
+    width: 80%;
+    height: 70px;
+    margin: 10px;
+    color: #f4f3f3;
+    font-size: 58px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.up {
+    /* border: 1px solid black; */
+    width: 90%;
+    height: 85px;
+    margin: 10px;
+    color: #f4f3f3;
+    font-size: 18px;
+}
+.this {
+    border: 1px solid black;
+    width: 95%;
+    height: 100px;
+    margin: 10px;
+}
+.dolu {
+    border: 1px solid black;
+    width: 20%;
+    /* height: 40px; */
+    margin: 20px;
+    float: right;
+    background-color: #f4f3f3;
+    padding: 15px 17px 17px 40px; 
+
+}
+.bolu {
+    border: 1px solid black;
+    width: 20%;
+    /* height: 40px; */
+    margin: 20px;
+    background-color: #f8bc1a;
+    padding: 15px 17px 17px 40px; 
+}
+dolu:link, bolu:link {
+    text-decoration: none;
+}
