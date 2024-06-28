@@ -578,6 +578,7 @@ div.strategies {
     margin-top: 15px;
     border: none;
     border-bottom: 0.8px solid #ac9784;
+    color: #ac9784;
 }
 .email {
     border: 1px solid black;
@@ -587,7 +588,9 @@ div.strategies {
     margin-top: 15px;
     border: none;
     border-bottom: 0.8px solid #ac9784;
+    color: #ac9784;
 }
+
 .phonenumber {
     border: 1px solid black;
     width: 100%;
@@ -596,6 +599,7 @@ div.strategies {
     margin-top: 25px;
     border: none;
     border-bottom: 0.8px solid #ac9784;
+    color: #ac9784;
 }
 .message {
     border: 1px solid black;
@@ -605,6 +609,7 @@ div.strategies {
     margin-top: 65px;
     border: none;
     border-bottom: 0.8px solid #ac9784;
+    color: #ac9784;
 }
 .send {
     width: 130px;
@@ -656,39 +661,46 @@ div.strategies {
     cursor: pointer;
 }
 .cool {
-    border: 1px solid white;
+    /* border: 1px solid white; */
     width: 80%;
     height: 280px;
     margin-top: 50px;
     margin-left: 110px;
 }
 .simran {
-    border: 1px solid honeydew;
+    /* border: 1px solid honeydew; */
     width: 25%;
     height: 280px;
     float: right;
 }
 .vertex{
-    border: 1px solid white;
+    /* border: 1px solid white; */
     width: 100%;
     height: 200px;
     margin-top: 20px;
 }
 .thirisha {
-    border: 1px solid white;
+    /* border: 1px solid white; */
     width: 24%;
     height: 280px;
     float: left;
 }
 .nayanthara {
-    border: 1px solid white;
+    /* border: 1px solid white; */
     width: 25%;
     height: 280px;
     float: right;
 }
 .amala {
-    border: 1px solid white;
+    /* border: 1px solid white; */
     width: 25%;
     height: 280px;
     float: left;
+}
+.thirisha p {
+    font-size: 15px;
+    line-height: 25px;
+}
+.thirisha h3 {
+    font-size: 25px;
 }
