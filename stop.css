@@ -2,14 +2,15 @@
 {
     padding: 0;
     margin: 0;
+    /* overflow: hidden; */
 }
-.sani {
+.object {
     border: 0px;
     width: 100%;
     height: 85px;
     background-color:#f4f3f3;
 }
-.sanicontent
+.objectcontent
 {
     width: 85%;
     height: 85px;
@@ -28,6 +29,18 @@
     font-size: 20px;
     font-weight: bold;
 }   
+/* .onemini {
+    border: 1px solid black;
+    width: 20%;
+    height: 30px;
+} */
+ .one img {
+    height: 28px;
+    width: 25px;
+    padding: 0px 19px 0px 12px;
+    vertical-align: middle;
+    background-size: 24px;
+ }
 
 .two {
     border: 0px;
@@ -86,7 +99,7 @@
     padding: 15px 28px 13px 0px;
     vertical-align: middle;
 }
-.jackjeeva {
+.boxsize {
     border: 0px;
     width: 100%;
     height: 450px;
@@ -122,7 +135,7 @@ a:hover {
     width: 40%;
     height: 380px;
     float: right;
-    position: absolute;
+    /* position: absolute; */
     right: 45px;
     bottom: 30px;
 }
@@ -152,7 +165,7 @@ a:hover {
     color: #f4f3f3;
     font-size: 18px;
 }
-.dolu {
+.geta {
     /* border: 1px solid black; */
     /* width: 30%; */
     /* height: 40px; */
@@ -163,7 +176,7 @@ a:hover {
     text-align: center;
 
 }
-.bolu {
+.read{
     /* border: 1px solid black; */
     /* width: 30%; */
     /* height: 40px; */
@@ -180,7 +193,7 @@ a:hover {
     width: 58%;
     height: 80px;
 }
-.dolumini {
+.getamini {
     width: 150px;
     height: 40px;
     /* margin-top: 10px; */
@@ -192,7 +205,7 @@ a:hover {
     border: white;
    
 }
-.bolu button {
+.read button {
     width: 150px;
     height: 40px;
     /* border: none; */
@@ -202,7 +215,7 @@ a:hover {
     border-color: #f8bc1a;
    
 }
-.dolumini:hover {
+.getamini:hover {
     width: 150px;
     height: 40px;
     background-color: inherit;
@@ -211,7 +224,7 @@ a:hover {
     cursor: pointer;
     
 }
-.bolu button:hover {
+.read button:hover {
     width: 150px;
     height: 40px;
     background-color: inherit;
@@ -268,7 +281,7 @@ a:hover {
     font-size: 20px;
     margin-top: 10px;
 }
-.tamil {
+.pic1 {
     /* border: 1px solid black; */
     position: relative;
     width: 40%;
@@ -278,7 +291,7 @@ a:hover {
     margin-right: 120px;
     padding-top: 25px;
 }
-.english {
+.pic2 {
     /* border: 1px solid black; */
     position: relative;
     width: 40%;
@@ -288,7 +301,7 @@ a:hover {
     margin-left: 100px;
     padding-top: 25px;
 }
-.maths {
+.pic3 {
     /* border: 1px solid black; */
     position: relative;
     width: 40%;
@@ -297,7 +310,7 @@ a:hover {
     margin: 10px;
     margin-right: 120px;
 }
-.science {
+.pic4 {
     /* border: 1px solid black; */
     position: relative;
     width: 40%;
@@ -306,7 +319,7 @@ a:hover {
     float: left;
     margin-left: 100px;
 }
-.social {
+.pic6{
     /* border: 1px solid black; */
     position: relative;
     width: 40%;
@@ -315,7 +328,7 @@ a:hover {
     float: right;
     margin-right: 120px;
 }
-.computer {
+.pic5{
     /* border: 1px solid black; */
     position: relative;
     width: 40%;
@@ -390,7 +403,7 @@ div.strategies {
     margin-top: 65px;
     /* margin-left: 50px; */
 }
-.free {
+.quality {
     /* border: 1px solid black; */
     width: 22%;
     height: 300px;
@@ -398,7 +411,7 @@ div.strategies {
     /* margin-top: 65px; */
     margin-left: 59px;
 }
-.fire {
+.unique {
     /* border: 1px solid black; */
     width: 22%;
     height: 300px;
@@ -406,7 +419,7 @@ div.strategies {
     /* margin-top: 65px; */
     margin-right: 30px;
 }
-.pubg {
+.shower {
     /* border: 1px solid black; */
     width: 22%;
     height: 300px;
@@ -414,7 +427,7 @@ div.strategies {
     /* margin-top: 65px; */
     margin-right: 20px;
 }
-.shout {
+.healthy {
     /* border: 1px solid black; */
     width: 22%;
     height: 300px;
@@ -422,36 +435,36 @@ div.strategies {
     /* margin-top: 65px; */
     margin-right: 20px;
 }
-.free h1,.shout h1 {
+.quality h1,.healthy h1 {
     font-size: 20px;
     line-height: 30px;
 }
-.free p,.shout p {
+.quality p,.healthy p {
     font-family: "Poppins", sans-serif;
     font-size: 17px;
     line-height: 25px;
 }
-.pubg h1,.fire h1 {
+.shower h1,.quality h1 {
     font-size: 20px;
     line-height: 70px;
 }
-.pubg p,.fire p {
+.shower p,.quality p {
     font-family: "Poppins", sans-serif;
     font-size: 17px;
 }
-.bro {
+.main {
     /* border: 1px solid black; */
-    width: 1005;
+    width: 100%;
     height: 600px;
     text-align: center;
     font-weight: bold;
     font-size: 20px;
     padding-top: 50px;
 }
-.bro img {
+.main img {
     margin-top: 40px;
 }
-.bro h2 {
+.main h2 {
     font-size: 1.25rem;
     margin-top: 15px;
     font-weight: bold;
@@ -474,28 +487,28 @@ div.strategies {
     margin-left: 650px;
     
 }
-.bro p {
+.main p {
     line-height: 25px;
 }
-.pro {
+.sendex {
     /* border: 1px solid black; */
-    width: 100%;
+    width: 99%;
     height: 600px;
     background-color: #3c0e78;
 }
-.boat {
+.box1 {
     /* border: 1px solid black; */
     width: 50%;
     height: 600px;
     float: right;
 }
-.ship {
+.box2 {
     /* border: 1px solid black; */
     width: 49%;
     height: 600px;
     float: left;
 }
-.gali {
+.function {
     content: "   ";
     width: 40px;
     height: 7px;
@@ -504,17 +517,17 @@ div.strategies {
     margin-left: 18px;
     margin-top: 120px;
 }
-.ship img {
+.box2 img {
     width: 100%;
     height: 600px;
 }
-.boat h1 {
+.box1 h1 {
     color: #f4f3f3;
     font-size: 35px;
     line-height: 45px;
     margin-left: 17px;
 }
-.boat p {
+.box1 p {
     margin-top: 20px;
     margin-left: 17px;
     color: #f4f3f3;
@@ -551,7 +564,7 @@ div.strategies {
     font-weight: bold;
     font-size: 20px;
 }
-.wire {
+.pragraph {
     /* border: 1px solid black; */
     width: 43%;
     height: 400px;
@@ -559,7 +572,7 @@ div.strategies {
     margin-top: 80px;
     margin-left: 70px;
 }
-.wireless {
+.map {
     /* border: 1px solid black; */
     width: 43%;
     height: 400px;
@@ -567,7 +580,7 @@ div.strategies {
     margin-top: 80px;
     margin-right: 70px;
 }
-.wireless p {
+.map p {
     font-size: 15px;
 }
 .name {
@@ -620,7 +633,7 @@ div.strategies {
     margin-right: 490px;
     margin-top: 80px;
 }
-.menu {
+.bigmenu {
     border: 1px solid black;
     width: 100%;
     height: 490px;
@@ -667,7 +680,7 @@ div.strategies {
     margin-top: 50px;
     margin-left: 110px;
 }
-.simran {
+.chooseus {
     /* border: 1px solid honeydew; */
     width: 25%;
     height: 280px;
@@ -679,28 +692,307 @@ div.strategies {
     height: 200px;
     margin-top: 20px;
 }
-.thirisha {
+.enery {
     /* border: 1px solid white; */
     width: 24%;
     height: 280px;
     float: left;
 }
-.nayanthara {
+.useful {
     /* border: 1px solid white; */
     width: 25%;
     height: 280px;
     float: right;
 }
-.amala {
+.menu {
     /* border: 1px solid white; */
     width: 25%;
     height: 280px;
     float: left;
 }
-.thirisha p {
+.enery p {
     font-size: 15px;
     line-height: 25px;
 }
-.thirisha h3 {
+.enery h3 {
     font-size: 25px;
 }
+.contectus {
+    width: 25%;
+    height: 280px;
+}
+.pra {
+    width: 80%;
+    height: 50px;
+}
+.pra h1 {
+    text-align: center;
+}
+ @media screen and (max-width: 425px) {
+    .two, .three, .four {
+        display: none;
+    }
+    .one img {
+        width: 40px;
+        height: 42px;
+        padding: 0px 5px 0px 42px;
+        margin-left: 1px;
+    }
+    .one {
+        margin-left: 65px;
+    }
+    .content {
+        display: none;
+    }
+    .diamond {
+        float: left;
+        width: 100%;
+    }
+    .kick {
+        width: 95%;
+        text-align: center;
+    }
+    .down {
+        width: 95%;
+        font-size: 43px;
+        text-align: center;
+    }
+    .up {
+        width: 95%;
+        height: 125px;
+        text-align: center;
+    }
+    .dolu {
+        /* float: left; */
+       /* margin-right: 45px; */
+    }
+    .bolu {
+        /* float: left; */
+        margin-left: 42px;
+    }
+    .dolumini {
+        float: left;
+    }
+    .bolumini {
+        float: left;
+    }
+    .jackjeeva {
+        background-size: 200%;
+    }
+    .empty {
+        margin-left: 182px;
+    }
+    .box {
+        height: 550px;
+        background-color: #f4f3f3;
+    }
+    .gympic {
+        height: 1615px;
+    }
+    .tamil {
+        width: 100%;
+        height: 208px;
+        margin-right: 0px;
+    }
+    .tamil img {
+        width: 100%;
+    }
+    .english {
+        width: 95%;
+        height: 219px;
+        float: right;
+        margin-left: 0px;
+    }
+    .english img {
+        width: 100%;
+    }
+    .maths {
+        float: right;
+        height: 220px;
+        width: 98%;
+        margin-right: 0px;
+    }
+    .maths img {
+        width: 98%;
+    }
+    .science {
+        width: 98%;
+        height: 222px;
+        float: right;
+        margin-left: 0px;
+    }
+    .science img {
+       width: 99%;
+    }
+    .computer {
+        width: 98%;
+        height: 220px;
+        float: right;
+        margin-left: 0px;
+    }
+    .computer img {
+        width: 99%;
+    }
+    .social {
+        width: 98%;
+        height: 275px;
+        float: left;
+        margin-right: 0px;
+    }
+    .social img {
+        width: 98%;
+    }
+    .tick {
+        height: 1110px;
+    }
+    .free {
+        float: none;
+        width: 300px;
+        height: 240px;
+    }
+    .shout {
+        float: none;
+        width: 405px;
+    }
+    .pubg {
+        float: none;
+        width: 405px;
+        height: 255px;
+    }
+    .fire {
+        float: none;
+        width: 395px;
+        height: 265px; 
+    }
+    .epty {
+        margin-left: 190px;
+    }
+    .mt {
+        margin-left: 190px;
+    }
+    .pro {
+      height: 1032px;
+      /* background-color: white; */
+    }
+    .boat {
+        width: 86%;
+        height: 430px;
+        float: none;
+        /* display: flex; */
+    }
+    .ship {
+        width: 100%;
+        float: none;
+        /* display: flex; */
+    }
+    /* .pro div#hand {
+        order: 1;
+    }
+    .pro div#built {
+        order: 2;
+    } */
+    iframe {
+        width: 100%;
+    }
+    .mouse {
+        height: 950px;
+    }
+    .wireless {
+        width: 100%;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+    .wire {
+        width: 90%;
+        margin-top: 0px;
+        margin-left: 15px;
+    }
+    .menu {
+        width: 98%;
+    }
+    .file {
+        margin-left: 58px;
+    }
+    .bar {
+        width: 40%;
+    }
+    .enery {
+        width: 60%;
+        height: 211px;
+        float: none;
+        margin: 0 auto;
+    }
+    .menu {
+        float: none;
+    }
+    .chooseus {
+        float: none;
+    }
+    .useful {
+        float: none;
+    }
+    .bigmenu {
+        height: 940px;
+    }
+    div.fitness {
+        position: relative;
+        left: 0px;
+        padding-right: 320px;
+        /* left: 15px; */
+    }
+    div.crossfitraining {
+        position: relative;
+        left: 0px;
+       padding-right: 200px;
+    }
+    div.health {
+        position: relative;
+        left: 0px;
+        padding-right: 295px;
+    }
+    div.dynamicstrengthtraining {
+        position: relative;
+        left: 0px;
+        padding-right: 100px;
+    }
+    div.workout {
+        position: relative;
+        left: 0px;
+        padding-right: 282px;
+    }
+    div.strategies {
+        position: relative;
+        left: 0px;
+        padding-right: 260px;
+    }
+    .menu {
+        width: 0%;
+        height: 135px;
+        margin-left: 80px;
+    }
+    .useful {
+        height: 115px;
+        margin-left: 58px;
+    }
+    .contectus {
+     height: 120px;
+     width: 57%;
+    }
+    .vertex {
+        height: 120px;
+    }
+    .pra {
+      width: 213px;
+    }
+    .bro {
+        height: 500px;
+    }
+    .send {
+       width: 40%;
+       margin-right: 228px;
+    }
+    .cool {
+        margin-top: 33px;
+        margin-left: 85px;
+    }
+} 
